@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Healthy life</string>
+    <string name="Email">Email</string>
+    <string name="Senha">Password</string>
+    <string name="SuaLocalização">Your Location</string>
+    <string name="Localização">Location</string>
+    <string name="Quadrodeaulas">Class Board</string>
+</resources>
