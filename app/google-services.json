@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "467319657402",
+    "project_id": "vida-saudavel-95929",
+    "storage_bucket": "vida-saudavel-95929.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467319657402:android:ecc78c6e558c2771bfc383",
+        "android_client_info": {
+          "package_name": "com.example.vidasaudavel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALq2bTsr4KJfTkocU62Hd3EvbqN4EUMMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

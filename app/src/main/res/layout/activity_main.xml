@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Senha"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/teal_700"
@@ -24,34 +25,56 @@
 
     <ImageView
         android:id="@+id/icNavegar"
-        android:layout_width="117dp"
-        android:layout_height="122dp"
+        android:layout_width="70dp"
+        android:layout_height="51dp"
         android:src="@drawable/ic_navegar"
-        android:layout_marginTop="10dp"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="537dp" />
+        app:layout_constraintEnd_toEndOf="@+id/Senha"
+        app:layout_constraintStart_toStartOf="@+id/Senha"
+        tools:layout_editor_absoluteY="421dp" />
 
     <EditText
-        android:id="@+id/inputEmail"
+        android:id="@+id/Email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="128dp"
         android:ems="10"
-        android:hint="@string/Email"
+        android:hint="e-mail"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/inputPassword"
+        android:id="@+id/Senha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:ems="10"
-        android:hint="@string/Senha"
-        android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="@+id/inputEmail"
-        app:layout_constraintStart_toStartOf="@+id/inputEmail"
-        app:layout_constraintTop_toBottomOf="@+id/inputEmail" />
+        android:hint="password"
+        android:inputType="numberPassword"
+        app:layout_constraintEnd_toEndOf="@+id/Email"
+        app:layout_constraintStart_toStartOf="@+id/Email"
+        app:layout_constraintTop_toBottomOf="@+id/Email" />
+
+    <Button
+        android:id="@+id/Cadastro"
+        android:layout_width="223dp"
+        android:layout_height="50dp"
+        android:text="Cadastrar"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OU"
+        app:layout_constraintEnd_toEndOf="@+id/icNavegar"
+        app:layout_constraintStart_toStartOf="@+id/icNavegar"
+        tools:layout_editor_absoluteY="481dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
