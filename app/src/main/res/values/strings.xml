@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SomatorioNumeros</string>
+    <string name="textView5">CALCULADORA</string>
+    <string name="textView6">INSIRAOPRIMEIROVALOR</string>
+    <string name="textView7">INSIRAOSEGUNDOVALOR</string>
+    <string name="textresultado">RESULTADO</string>
+</resources>
